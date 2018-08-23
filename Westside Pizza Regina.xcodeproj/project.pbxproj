@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39DB213520EE0AF70095865F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB213420EE0AF70095865F /* AppDelegate.swift */; };
+		39DB213720EE0AF70095865F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB213620EE0AF70095865F /* ViewController.swift */; };
+		39DB213A20EE0AF70095865F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DB213820EE0AF70095865F /* Main.storyboard */; };
+		39DB213D20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39DB213B20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodeld */; };
+		39DB213F20EE0AF80095865F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DB213E20EE0AF80095865F /* Assets.xcassets */; };
+		39DB214220EE0AF80095865F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DB214020EE0AF80095865F /* LaunchScreen.storyboard */; };
+		39DB214D20EE0AF80095865F /* Westside_Pizza_ReginaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB214C20EE0AF80095865F /* Westside_Pizza_ReginaTests.swift */; };
+		39DB215820EE0AF80095865F /* Westside_Pizza_ReginaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB215720EE0AF80095865F /* Westside_Pizza_ReginaUITests.swift */; };
+		39DB216620EE0E790095865F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB216520EE0E790095865F /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DB214920EE0AF80095865F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DB212920EE0AF60095865F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB213020EE0AF70095865F;
+			remoteInfo = "Westside Pizza Regina";
+		};
+		39DB215420EE0AF80095865F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DB212920EE0AF60095865F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB213020EE0AF70095865F;
+			remoteInfo = "Westside Pizza Regina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39DB213120EE0AF70095865F /* Westside Pizza Regina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Westside Pizza Regina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB213420EE0AF70095865F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39DB213620EE0AF70095865F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39DB213920EE0AF70095865F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39DB213C20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Westside_Pizza_Regina.xcdatamodel; sourceTree = "<group>"; };
+		39DB213E20EE0AF80095865F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DB214120EE0AF80095865F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39DB214320EE0AF80095865F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DB214820EE0AF80095865F /* Westside Pizza ReginaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Westside Pizza ReginaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB214C20EE0AF80095865F /* Westside_Pizza_ReginaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westside_Pizza_ReginaTests.swift; sourceTree = "<group>"; };
+		39DB214E20EE0AF80095865F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DB215320EE0AF80095865F /* Westside Pizza ReginaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Westside Pizza ReginaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB215720EE0AF80095865F /* Westside_Pizza_ReginaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westside_Pizza_ReginaUITests.swift; sourceTree = "<group>"; };
+		39DB215920EE0AF80095865F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DB216520EE0E790095865F /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39DB212E20EE0AF70095865F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB214520EE0AF80095865F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB215020EE0AF80095865F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DB212820EE0AF60095865F = {
+			isa = PBXGroup;
+			children = (
+				39DB213320EE0AF70095865F /* Westside Pizza Regina */,
+				39DB214B20EE0AF80095865F /* Westside Pizza ReginaTests */,
+				39DB215620EE0AF80095865F /* Westside Pizza ReginaUITests */,
+				39DB213220EE0AF70095865F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39DB213220EE0AF70095865F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DB213120EE0AF70095865F /* Westside Pizza Regina.app */,
+				39DB214820EE0AF80095865F /* Westside Pizza ReginaTests.xctest */,
+				39DB215320EE0AF80095865F /* Westside Pizza ReginaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DB213320EE0AF70095865F /* Westside Pizza Regina */ = {
+			isa = PBXGroup;
+			children = (
+				39DB213420EE0AF70095865F /* AppDelegate.swift */,
+				39DB213620EE0AF70095865F /* ViewController.swift */,
+				39DB213820EE0AF70095865F /* Main.storyboard */,
+				39DB213E20EE0AF80095865F /* Assets.xcassets */,
+				39DB214020EE0AF80095865F /* LaunchScreen.storyboard */,
+				39DB214320EE0AF80095865F /* Info.plist */,
+				39DB213B20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodeld */,
+				39DB216520EE0E790095865F /* WebViewController.swift */,
+			);
+			path = "Westside Pizza Regina";
+			sourceTree = "<group>";
+		};
+		39DB214B20EE0AF80095865F /* Westside Pizza ReginaTests */ = {
+			isa = PBXGroup;
+			children = (
+				39DB214C20EE0AF80095865F /* Westside_Pizza_ReginaTests.swift */,
+				39DB214E20EE0AF80095865F /* Info.plist */,
+			);
+			path = "Westside Pizza ReginaTests";
+			sourceTree = "<group>";
+		};
+		39DB215620EE0AF80095865F /* Westside Pizza ReginaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39DB215720EE0AF80095865F /* Westside_Pizza_ReginaUITests.swift */,
+				39DB215920EE0AF80095865F /* Info.plist */,
+			);
+			path = "Westside Pizza ReginaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39DB213020EE0AF70095865F /* Westside Pizza Regina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB215C20EE0AF80095865F /* Build configuration list for PBXNativeTarget "Westside Pizza Regina" */;
+			buildPhases = (
+				39DB212D20EE0AF70095865F /* Sources */,
+				39DB212E20EE0AF70095865F /* Frameworks */,
+				39DB212F20EE0AF70095865F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Westside Pizza Regina";
+			productName = "Westside Pizza Regina";
+			productReference = 39DB213120EE0AF70095865F /* Westside Pizza Regina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DB214720EE0AF80095865F /* Westside Pizza ReginaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB215F20EE0AF80095865F /* Build configuration list for PBXNativeTarget "Westside Pizza ReginaTests" */;
+			buildPhases = (
+				39DB214420EE0AF80095865F /* Sources */,
+				39DB214520EE0AF80095865F /* Frameworks */,
+				39DB214620EE0AF80095865F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DB214A20EE0AF80095865F /* PBXTargetDependency */,
+			);
+			name = "Westside Pizza ReginaTests";
+			productName = "Westside Pizza ReginaTests";
+			productReference = 39DB214820EE0AF80095865F /* Westside Pizza ReginaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39DB215220EE0AF80095865F /* Westside Pizza ReginaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB216220EE0AF80095865F /* Build configuration list for PBXNativeTarget "Westside Pizza ReginaUITests" */;
+			buildPhases = (
+				39DB214F20EE0AF80095865F /* Sources */,
+				39DB215020EE0AF80095865F /* Frameworks */,
+				39DB215120EE0AF80095865F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DB215520EE0AF80095865F /* PBXTargetDependency */,
+			);
+			name = "Westside Pizza ReginaUITests";
+			productName = "Westside Pizza ReginaUITests";
+			productReference = 39DB215320EE0AF80095865F /* Westside Pizza ReginaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DB212920EE0AF60095865F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Pbztex;
+				TargetAttributes = {
+					39DB213020EE0AF70095865F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					39DB214720EE0AF80095865F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 39DB213020EE0AF70095865F;
+					};
+					39DB215220EE0AF80095865F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 39DB213020EE0AF70095865F;
+					};
+				};
+			};
+			buildConfigurationList = 39DB212C20EE0AF60095865F /* Build configuration list for PBXProject "Westside Pizza Regina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39DB212820EE0AF60095865F;
+			productRefGroup = 39DB213220EE0AF70095865F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DB213020EE0AF70095865F /* Westside Pizza Regina */,
+				39DB214720EE0AF80095865F /* Westside Pizza ReginaTests */,
+				39DB215220EE0AF80095865F /* Westside Pizza ReginaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39DB212F20EE0AF70095865F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB214220EE0AF80095865F /* LaunchScreen.storyboard in Resources */,
+				39DB213F20EE0AF80095865F /* Assets.xcassets in Resources */,
+				39DB213A20EE0AF70095865F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB214620EE0AF80095865F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB215120EE0AF80095865F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DB212D20EE0AF70095865F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB213720EE0AF70095865F /* ViewController.swift in Sources */,
+				39DB213D20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodeld in Sources */,
+				39DB213520EE0AF70095865F /* AppDelegate.swift in Sources */,
+				39DB216620EE0E790095865F /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB214420EE0AF80095865F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB214D20EE0AF80095865F /* Westside_Pizza_ReginaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB214F20EE0AF80095865F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB215820EE0AF80095865F /* Westside_Pizza_ReginaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DB214A20EE0AF80095865F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DB213020EE0AF70095865F /* Westside Pizza Regina */;
+			targetProxy = 39DB214920EE0AF80095865F /* PBXContainerItemProxy */;
+		};
+		39DB215520EE0AF80095865F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DB213020EE0AF70095865F /* Westside Pizza Regina */;
+			targetProxy = 39DB215420EE0AF80095865F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39DB213820EE0AF70095865F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DB213920EE0AF70095865F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39DB214020EE0AF80095865F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DB214120EE0AF80095865F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39DB215A20EE0AF80095865F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39DB215B20EE0AF80095865F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DB215D20EE0AF80095865F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Westside Pizza Regina/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pbztex.Westside-Pizza-Regina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		39DB215E20EE0AF80095865F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Westside Pizza Regina/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pbztex.Westside-Pizza-Regina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		39DB216020EE0AF80095865F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Westside Pizza ReginaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pbztex.Westside-Pizza-ReginaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westside Pizza Regina.app/Westside Pizza Regina";
+			};
+			name = Debug;
+		};
+		39DB216120EE0AF80095865F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Westside Pizza ReginaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pbztex.Westside-Pizza-ReginaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westside Pizza Regina.app/Westside Pizza Regina";
+			};
+			name = Release;
+		};
+		39DB216320EE0AF80095865F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Westside Pizza ReginaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pbztex.Westside-Pizza-ReginaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Westside Pizza Regina";
+			};
+			name = Debug;
+		};
+		39DB216420EE0AF80095865F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = "Westside Pizza ReginaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pbztex.Westside-Pizza-ReginaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Westside Pizza Regina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DB212C20EE0AF60095865F /* Build configuration list for PBXProject "Westside Pizza Regina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB215A20EE0AF80095865F /* Debug */,
+				39DB215B20EE0AF80095865F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB215C20EE0AF80095865F /* Build configuration list for PBXNativeTarget "Westside Pizza Regina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB215D20EE0AF80095865F /* Debug */,
+				39DB215E20EE0AF80095865F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB215F20EE0AF80095865F /* Build configuration list for PBXNativeTarget "Westside Pizza ReginaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB216020EE0AF80095865F /* Debug */,
+				39DB216120EE0AF80095865F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB216220EE0AF80095865F /* Build configuration list for PBXNativeTarget "Westside Pizza ReginaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB216320EE0AF80095865F /* Debug */,
+				39DB216420EE0AF80095865F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39DB213B20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39DB213C20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodel */,
+			);
+			currentVersion = 39DB213C20EE0AF70095865F /* Westside_Pizza_Regina.xcdatamodel */;
+			path = Westside_Pizza_Regina.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39DB212920EE0AF60095865F /* Project object */;
+}
